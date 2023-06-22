@@ -26,11 +26,11 @@ public class Main {
         System.out.println("Минимум продаж - " + minMonth);
 
         // Количество месяцев больше среднего
-        int maxAverage = service.calculateMaxAverage(month);
+        int maxAverage = service.calculateCountAboveAverage(month);
         System.out.println("Количество месяцев, в которых продажи были больше среднего - " + maxAverage);
 
         // Количество месяцев ниже среднего
-        int minAverage = service.calculateMinAverage(month);
+        int minAverage = service.calculateCountBelowAverage(month);
         System.out.println("Количество месяцев, в которых продажи были ниже среднего - " + minAverage);
 
 
